@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=IBM+Plex+Mono:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Hero name shimmer gradient ─── */
+.na-name {
+  font-weight: 900;
+  font-size: clamp(4rem, 13vw, 9.5rem);
+  line-height: 0.9;
+  letter-spacing: -0.02em;
+  background: linear-gradient(120deg, #777 0%, #fff 38%, #aaa 52%, #fff 66%, #777 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
