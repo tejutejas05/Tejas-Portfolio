@@ -131,26 +131,23 @@ function Aboutme() {
               to develop efficient backend systems and responsive applications.
             </p>
 
-            <p className="text-sm sm:text-base md:text-lg leading-relaxed text-neutral-400">
+            {/* <p className="text-sm sm:text-base md:text-lg leading-relaxed text-neutral-400">
               I have developed projects including{" "}
               <span className="text-neutral-100">
                 Face Recognition Attendance Systems, Hotel Management Systems,
                 AI-based applications, and Machine Learning solutions
               </span>{" "}
               .
-            </p>
+            </p> */}
 
             <p className="text-sm sm:text-base md:text-lg leading-relaxed text-neutral-400">
-              I value{" "}
-              <span className="text-neutral-100">
-                clean system design, performance optimization,
+              I'm passionate about{" "}
+              <span className="font-medium text-neutral-200">
+                System Design, AI agents, Backend Architecture,
+                and Scalable Software Development.
               </span>{" "}
-              and{" "}
-              <span className="text-neutral-100">
-                writing maintainable code
-              </span>
-              . I enjoy solving complex problems and turning them into reliable,
-              user-focused products.
+              I enjoy building clean, efficient, and real-world applications
+              with modern technologies.{" "}
             </p>
           </div>
         </div>

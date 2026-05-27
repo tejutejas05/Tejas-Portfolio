@@ -5,19 +5,19 @@ import { Typewriter } from "react-simple-typewriter";
 import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 
 const socials = [
-  { icon: FaGithub, href: "https://github.com/nikhilachale", label: "GitHub", hoverColor: "#ffffff" },
-  { icon: FaLinkedin, href: "https://www.linkedin.com/in/nikhil-achale-b398aa195/", label: "LinkedIn", hoverColor: "#60a5fa" },
-  { icon: FaEnvelope, href: "mailto:nikhilsmailbox01@gmail.com", label: "Email", hoverColor: "#f87171" },
-  { icon: FaWhatsapp, href: "https://wa.me/7691912890", label: "WhatsApp", hoverColor: "#4ade80" },
+  { icon: FaGithub, href: "https://github.com/tejutejas05", label: "GitHub", hoverColor: "#ffffff" },
+  { icon: FaLinkedin, href: "www.linkedin.com/in/tejas-r-tej05", label: "LinkedIn", hoverColor: "#60a5fa" },
+  { icon: FaEnvelope, href: "mailto:tejasprof05@gmail.com", label: "Email", hoverColor: "#f87171" },
+  { icon: FaWhatsapp, href: "https://wa.me/7022840448", label: "WhatsApp", hoverColor: "#4ade80" },
 ];
 
 const stats = [
-  { value: "2+", label: "Years Exp." },
-  { value: "15+", label: "Projects" },
-  { value: "Web3", label: "Focused" },
+  { value: "15+", label: "Projects Built" },
+  { value: "5+", label: "Technologies" },
+  { value: "AI", label: "Focused" },
 ];
 
-const tags = ["React", "Node.js", "Solidity", "TypeScript", "Web3"];
+const tags = ["Go", "Python", "Docker", "SQL", "AI Agents"];
 
 function Main() {
   const sectionRef = useRef(null);
