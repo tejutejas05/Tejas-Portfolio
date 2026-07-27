@@ -85,9 +85,9 @@ function Main() {
 
           {/* Name */}
           <h1 className="na-name font-playfair animate-shimmer select-none mb-5">
-            Nikhil
+            Tejas R
             <br />
-            Achale
+            Naidu
           </h1>
 
           {/* Typewriter role */}
