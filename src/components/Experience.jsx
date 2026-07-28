@@ -3,17 +3,17 @@ import { FaBriefcase, FaCalendarAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 const experiences = [
   {
-    role: "Web Developer Intern",
-    company: "CDAC Patna",
+    role: "Backend Developer Intern",
+    company: "Lorenta Technologies Pvt ltd",
     logo: "https://www.presentations.gov.in/wp-content/uploads/2020/06/Preview-22.png",
-    location: "Patna, India",
-    duration: "Feb 2025 – Apr 2025",
+    location: "Mangalore, India",
+    duration: "Jan 2026 – Aug 2026",
     points: [
-      "Designed and developed responsive web pages for an internal government project.",
-      "Collaborated with senior engineers on UI/UX improvements and accessibility standards.",
-      "Optimized site performance and ensured cross-browser compatibility.",
+      "Built the backend for PrintPoint, a self-service kiosk printing platform live in production and used by real customers designing the core services in Go that power the product end-to-end.",
+      "Engineered print job queuing and kiosk session management, coordinating file uploads, device communication with printer hardware, and payment processing in real time.",
+      "Designed the data layer on PostgreSQL and secured document workflows using AWS S3 with presigned URL-based access control.",
     ],
-    tags: ["HTML/CSS", "JavaScript", "Responsive Design"],
+    tags: ["Golang", "PostgreSQL", "AWS S3"],
   },
 ];
 
