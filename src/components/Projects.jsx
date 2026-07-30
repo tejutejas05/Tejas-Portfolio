@@ -1,9 +1,14 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt, FaArrowRight } from "react-icons/fa";
-import exc from "../images/excc.png";
-import mudra from "../images/mudrax.png";
-import chessImg from "../images/chess.png";
-import tttImg from "../images/xo.png";
+// import exc from "../images/excc.png";
+// import mudra from "../images/mudrax.png";
+// import chessImg from "../images/chess.png";
+// import tttImg from "../images/xo.png";
+import movierecommedation from "../images/movie-recommedation.png";
+import lanora from "../images/lanora.jpeg";
+import attendance from "../images/attendance.jpeg";
+import aimcq from "../images/aimcq.png";
+
 
 // ── Animation Variants ──────────────────────────────────────────────
 const sectionVariants = {
@@ -35,7 +40,7 @@ const projects = [
     title: "Lanora - AI Agent Testing & Deployment Platform",
     description:
       "Lanora is a CLI-first platform that allows developers to test and deploy AI agents instantly using secure sandbox environments.It removes the complexity of manual setup, dependency handling, and deployment by providing a simple command-based workflow.",
-    img: chessImg,
+    img: lanora,
     github: "https://github.com/tejutejas05/LANORA",
     live: "",
     tags: ["Golang", "Docker", "AWS EC2", "PostgresSQL", "Postman"],
@@ -48,7 +53,7 @@ const projects = [
     title: "AI-Powered MCQ Generator",
     description:
       "Built an AI-powered MCQ Generator that uses Django and Google Gemini to dynamically generate questions based on topic, difficulty, and count. The system renders results in real time and supports PDF export, demonstrating end-to-end LLM integration and full-stack deployment.",
-    img: mudra,
+    img: aimcq,
     github: "https://github.com/tejutejas05/AI-powered-MCQ-Generator-Django-and-OPEN-AI-",
     live: "https://mcq-generator-w35s.onrender.com",
     tags: [
@@ -67,7 +72,7 @@ const projects = [
     title: "Movie-Recommendation-System-Using-Machine-Learning",
     description:
       "a Movie Recommendation System where users select a movie and the system recommends the top 5 most similar movies based on content similarity.",
-    img: exc,
+    img: movierecommedation,
     github: "https://github.com/tejutejas05/Movie-Recommendation-System-Using-Machine-Learning",
     live: "https://lnkd.in/gvxFppDD",
     tags: ["ML Pipeline", "EDA", "Model Training", "Scikit-learn", "Streamlit"],
@@ -80,7 +85,7 @@ const projects = [
     title: "Face Recognition Attendance System",
     description:
       "Developed a Face Recognition–Based Attendance System using Jetson Nano that detects and recognizes faces in real time from live camera input. The system automatically marks attendance using computer vision and deep learning, ensuring accuracy, speed, and contactless operation.",
-    img: tttImg,
+    img: attendance,
     github: "https://github.com/tejutejas05/Face-Recognition-attendance-system-using-Jetson-Nano",
     live: "",
     tags: ["Python", "Jetson Nano Kit", "Open CV", "Machine Learning", "Har Cascades"],

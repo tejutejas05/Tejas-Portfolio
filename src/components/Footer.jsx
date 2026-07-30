@@ -10,13 +10,13 @@ import {
 } from "react-icons/fa";
 
 const RESUME_LINK =
-  "https://drive.google.com/drive/folders/1NgOfSic3HvXTgYsOH_I3kECwt-lhcXyE?usp=drive_link";
-
+  "https://drive.google.com/drive/folders/1N8dn1JcXX_a1iimgjMxBI9iTaqGRIxQW?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto";
+  
 const socials = [
-  { name: "GitHub", icon: FaGithub, href: "https://github.com/nikhilachale", hoverClass: "hover:text-white hover:border-neutral-500" },
-  { name: "LinkedIn", icon: FaLinkedin, href: "https://www.linkedin.com/in/nikhil-achale-b398aa195/", hoverClass: "hover:text-blue-400 hover:border-blue-400/40" },
-  { name: "Email", icon: FaEnvelope, href: "mailto:nikhilsmailbox01@gmail.com", hoverClass: "hover:text-red-400 hover:border-red-400/40" },
-  { name: "WhatsApp", icon: FaWhatsapp, href: "https://wa.me/7691912890", hoverClass: "hover:text-green-400 hover:border-green-400/40" },
+  { name: "GitHub", icon: FaGithub, href: "https://github.com/tejutejas05", hoverClass: "hover:text-white hover:border-neutral-500" },
+  { name: "LinkedIn", icon: FaLinkedin, href: "https://www.linkedin.com/in/tejas-r-tej05/", hoverClass: "hover:text-blue-400 hover:border-blue-400/40" },
+  { name: "Email", icon: FaEnvelope, href: "mailto:tejasprof05@gmail.com", hoverClass: "hover:text-red-400 hover:border-red-400/40" },
+  { name: "WhatsApp", icon: FaWhatsapp, href: "https://wa.me/7022840448", hoverClass: "hover:text-green-400 hover:border-green-400/40" },
 ];
 
 const navLinks = [
@@ -58,7 +58,7 @@ function Footer() {
          
           <div className="flex flex-wrap items-center justify-center gap-3">
             <motion.a
-              href="mailto:nikhilsmailbox01@gmail.com"
+              href="mailto:tejasprof05@gmail.com"
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.97 }}
               className="inline-flex items-center gap-2 bg-gradient-to-r from-neutral-200 to-neutral-300 text-black px-6 py-2.5 rounded-lg font-semibold text-sm shadow-lg hover:shadow-neutral-400/20 transition-all duration-300"
@@ -96,15 +96,15 @@ function Footer() {
             </h4>
             <div className="flex items-center gap-2.5 text-neutral-400 text-sm">
               <FaMapMarkerAlt className="w-3.5 h-3.5 text-neutral-500 flex-shrink-0" />
-              <span>NIT Patna, Bihar, India</span>
+              <span>AIET Moodbidre, Karnataka, India</span>
             </div>
             <div className="flex items-center gap-2.5 text-neutral-400 text-sm">
               <FaEnvelope className="w-3.5 h-3.5 text-neutral-500 flex-shrink-0" />
               <a
-                href="mailto:nikhilsmailbox01@gmail.com"
+                href="mailto:tejasprof05@gmail.com"
                 className="hover:text-neutral-200 transition-colors"
               >
-                nikhilsmailbox01@gmail.com
+                tejasprof05@gmail.com
               </a>
             </div>
           </div>
@@ -156,7 +156,7 @@ function Footer() {
 
         <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-neutral-600 text-xs">
-            © {new Date().getFullYear()} Nikhil Achale
+            © {new Date().getFullYear()} Tejas R
           </p>
 
           <motion.button
